@@ -3,13 +3,14 @@ package szines.androidapp;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
 
-public class Home extends Activity {
+public class Home extends ActionBarActivity {
     public final static String EXTRA_MESSAGE = "szines.androidapp.MESSAGE";
 
     @Override
