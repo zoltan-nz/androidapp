@@ -9,5 +9,6 @@
     <string name="title_activity_main">Home</string>
     <string name="title_activity_display_message">DisplayMessageActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_web_view_with_video">WebViewWithVideo</string>
 
 </resources>
