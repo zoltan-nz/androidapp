@@ -38,7 +38,7 @@ public class WebViewWithVideo extends ActionBarActivity {
         webSettings.setJavaScriptEnabled(true);
 
 
-        webView.loadUrl("http://192.168.0.15:9000");
+        webView.loadUrl("http://192.168.43.20:9000");
     }
 
     @Override
