@@ -8,7 +8,7 @@ $().ready(
 
     var image = 'video-poster2.png';
 
-    var video = 'forgotton-words.mp4';
+    var video = 'graduation-video.mp4';
 
     $('#splendid').click(function(){
 

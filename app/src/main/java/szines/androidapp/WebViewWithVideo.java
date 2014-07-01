@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
@@ -30,9 +31,12 @@ public class WebViewWithVideo extends ActionBarActivity {
         setContentView(R.layout.activity_web_view_with_video);
 
         webView = (WebView) findViewById(R.id.activity_webview);
+        webView.setWebChromeClient(new WebChromeClient());
+
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+
 
         webView.loadUrl("http://192.168.0.15:9000");
     }
