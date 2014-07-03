@@ -29,6 +29,7 @@ public class WebViewWithVideo extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view_with_video);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         webView = (WebView) findViewById(R.id.activity_webview);
         webView.setWebChromeClient(new WebChromeClient());
@@ -38,7 +39,7 @@ public class WebViewWithVideo extends ActionBarActivity {
         webSettings.setJavaScriptEnabled(true);
 
 
-        webView.loadUrl("http://192.168.43.20:9000");
+        webView.loadUrl("http://192.168.0.15:9000");
     }
 
     @Override
