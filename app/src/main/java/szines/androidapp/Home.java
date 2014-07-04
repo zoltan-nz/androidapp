@@ -59,4 +59,16 @@ public class Home extends ActionBarActivity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+
+    public void openSearch() {
+
+    }
+
+    public void openSettings() {
+
+    }
+
+    public void openWebView() {
+
+    }
 }
