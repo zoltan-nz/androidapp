@@ -11,5 +11,6 @@
     <string name="title_activity_display_message">DisplayMessageActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_web_view_with_video">WebViewWithVideo</string>
+    <string name="title_activity_button">ButtonActivity</string>
 
 </resources>
