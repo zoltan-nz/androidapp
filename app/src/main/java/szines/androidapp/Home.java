@@ -61,20 +61,14 @@ public class Home extends ActionBarActivity {
     }
 
     public void openSearch() {
-        Intent intent = new Intent(Home.this, ActivityB.class);
-        startActivity(intent);
 
     }
 
     public void openSettings() {
-        Intent intent = new Intent(ActivityA.this, ActivityB.class);
-        startActivity(intent);
 
     }
 
     public void openWebView() {
-        Intent intent = new Intent(ActivityA.this, ActivityB.class);
-        startActivity(intent);
 
     }
 }
