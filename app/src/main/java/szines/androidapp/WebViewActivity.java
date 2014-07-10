@@ -1,7 +1,6 @@
 package szines.androidapp;
 
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,14 +8,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.os.Build;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-import szines.androidapp.R;
-
-public class WebViewWithVideo extends ActionBarActivity {
+public class WebViewActivity extends ActionBarActivity {
 
     /**
      * A placeholder fragment containing a simple view.
@@ -28,7 +24,7 @@ public class WebViewWithVideo extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_web_view_with_video);
+        setContentView(R.layout.activity_web_view);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         webView = (WebView) findViewById(R.id.activity_webview);
