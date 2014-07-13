@@ -46,6 +46,15 @@ public class MainActivity extends ActionBarActivity {
             case R.id.action_webview:
                 openWebView();
                 return true;
+            case R.id.action_button:
+                openButton();
+                return true;
+            case R.id.action_login:
+                openLogin();
+                return true;
+            case R.id.action_plusbase:
+                openPlusBase();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -65,10 +74,27 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void openSettings() {
-
+        Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
     }
 
     public void openWebView() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        startActivity(intent);
+    }
 
+    public void openButton() {
+        Intent intent = new Intent(this, ButtonActivity.class);
+        startActivity(intent);
+    }
+
+    public void openLogin() {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+    }
+
+    public void openPlusBase() {
+        Intent intent = new Intent(this, PlusBaseActivity.class);
+        startActivity(intent);
     }
 }
