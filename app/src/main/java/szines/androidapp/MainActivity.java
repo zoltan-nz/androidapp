@@ -61,7 +61,7 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    public void sendMessage(View view) {
+    private void sendMessage(View view) {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();
@@ -69,31 +69,31 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
-    public void openSearch() {
+    private void openSearch() {
 
     }
 
-    public void openSettings() {
+    private void openSettings() {
         Intent intent = new Intent(this, SettingsActivity.class);
         startActivity(intent);
     }
 
-    public void openWebView() {
+    private void openWebView() {
         Intent intent = new Intent(this, WebViewActivity.class);
         startActivity(intent);
     }
 
-    public void openButton() {
+    private void openButton() {
         Intent intent = new Intent(this, ButtonActivity.class);
         startActivity(intent);
     }
 
-    public void openLogin() {
+    private void openLogin() {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 
-    public void openPlusBase() {
+    private void openPlusBase() {
         Intent intent = new Intent(this, PlusBaseActivity.class);
         startActivity(intent);
     }
