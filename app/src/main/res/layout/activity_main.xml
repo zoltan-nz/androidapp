@@ -18,4 +18,11 @@
         android:text="@string/button_send"
         android:onClick="sendMessage"
         android:id="@+id/send_button" />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.MapFragment"
+        tools:layout="@layout/fragment_message">
+
+        </fragment>
 </LinearLayout>
