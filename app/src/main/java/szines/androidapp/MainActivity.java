@@ -57,11 +57,10 @@ public class MainActivity extends FragmentActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
-
     }
 
     public void sendMessage(View view) {
-        Intent intent = new Intent(this, MessageActivity.class);
+        Intent intent = new Intent(this, MessageFragment.class);
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
