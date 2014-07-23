@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="5.0.77" >
+        <source path="/Users/szines/projects/androidapp/GcmClient/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.77/assets" />
+    </dataSet>
+    <dataSet config="19.1.0" >
+        <source path="/Users/szines/projects/androidapp/GcmClient/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/szines/projects/androidapp/GcmClient/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/szines/projects/androidapp/GcmClient/src/debug/assets" />
+    </dataSet>
+
+</merger>
